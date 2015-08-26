@@ -4,4 +4,5 @@ v - add walls, boxes, border conditions
 v - move everything to separate lib.py
 v - worker now changes appearance in relation to previous move
   - add at least one goal as condition to win
+  - add gifs of gaming process into repo
   - it should be not erasable (redraw)
