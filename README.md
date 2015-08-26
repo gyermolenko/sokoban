@@ -1,9 +1,11 @@
 # sokoban
 Terminal based game of sokoban.
 
-Controls: arrow keys and "q".
+CONTROLS: 
+* Arrow keys and "q".
 
-Goal:     all boxes should be put in "places"
+GOAL:
+* All boxes should be put in "places"
 
 
 Main principles (goals I was pursuing):
