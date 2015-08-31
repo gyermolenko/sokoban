@@ -1,9 +1,12 @@
 # sokoban
 Terminal based game of sokoban.
 
+![Alt Text](https://github.com/gyermolenko/sokoban/blob/master/preview.gif)
+
 Controls: 
 -----------------------------------------------------------------------------
-* Arrow keys and "q".
+* arrow keys (+hjkl)
+* "q" for quit.
 
 Goal:
 -----------------------------------------------------------------------------
