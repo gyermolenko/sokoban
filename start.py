@@ -8,7 +8,6 @@ objects = [empty, worker, box, wall, goal, goal_boxed]
 area = []
 area_width, area_height = 0, 0
 worker_x, worker_y = 0, 0
-# goal_x, goal_y = 0, 0
 set_of_goals = set()
 
 filename = 'map.txt'
@@ -117,7 +116,6 @@ def main():
     while not i_win():
         ch = catch_key()
         o = ord(ch)
-        # print ch, o
 
         if o in controls:
             if controls[o] == 'q':
@@ -148,13 +146,6 @@ def main():
 if __name__ == '__main__':
     main()
 
-# v - now worker changes appearance depending on direction of the last move
-# v - added hjkl controls
-# v - goal shoud not disapper when stepped over or boxed
-# v - make worker green when over the goal
-# v - set of goals inst of one goal
-# v - add winning game conditions
-# v - fixed issue with \r inst of \n
 # - choose level
 # TODO: get rid of globals
 # TODO: 'r' should restart game
