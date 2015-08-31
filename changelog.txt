@@ -2,7 +2,16 @@ v - remake v0.0 from windows to work with Linux terminal
 v - add colors (and ability to apply them to any obj)
 v - add walls, boxes, border conditions
 v - move everything to separate lib.py
-v - worker now changes appearance in relation to previous move
-  - add at least one goal as condition to win
-  - add gifs of gaming process into repo
-  - it should be not erasable (redraw)
+v - now worker changes appearance depending on direction of the last move
+v - added hjkl controls
+v - goal shoud not disapper when stepped over or boxed
+v - set of goals inst of one goal
+v - make worker green when over the goal
+v - add winning game conditions
+v - [fix] issue with \r inst of \n
+
+v - ready to play
+
+v - add few maps (map_01.txt, map_02.txt from original game are ready)
+v - add gifs of gaming process into repo
+  - choose levels
