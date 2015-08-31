@@ -1,8 +1,12 @@
 controls = {
     65: 'up',
+    107: 'up',  # k
     66: 'down',
+    106: 'down',  # j
     68: 'left',
+    104: 'left',  # h
     67: 'right',
+    108: 'right',  # l
     113: 'q',
 }
 
@@ -44,29 +48,35 @@ class Obj:
 empty = Obj()
 empty.file_view = ' '
 empty.terminal_view = '   '
+empty.color = ''
 empty.tile = tiles['blue']
 
 worker = Obj()
 worker.file_view = 'A'
-worker.terminal_view = ' V '  # obj_color['BCyan'] + ' V '
+worker.terminal_view = ' A '  # obj_color['BCyan'] + ' V '
+worker.color = ''
 worker.tile = tiles['blue']
 
 wall = Obj()
 wall.file_view = '#'
 wall.terminal_view = '   '
+wall.color = ''
 wall.tile = tiles['black']
 
 box = Obj()
 box.file_view = 'O'
-box.terminal_view = obj_color['BIPurple'] + '|_|'
+box.terminal_view = '|_|'
+box.color = obj_color['BIPurple']
 box.tile = tiles['yellow']
 
 goal = Obj()
 goal.file_view = 'x'
-goal.terminal_view = obj_color['BGreen'] + '[x]'
+goal.terminal_view = ' * '
+goal.color = obj_color['BBlack']
 goal.tile = tiles['blue']
 
 goal_boxed = Obj()
 goal_boxed.file_view = 'X'
-goal_boxed.terminal_view = ' X '
+goal_boxed.terminal_view = '|_|'
+goal_boxed.color = ''
 goal_boxed.tile = tiles['green']
