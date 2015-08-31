@@ -1,5 +1,5 @@
 # sokoban
-Terminal based game of sokoban.
+Terminal based game of sokoban (for Linux).
 
 ![Alt Text](https://github.com/gyermolenko/sokoban/blob/master/preview.gif)
 
